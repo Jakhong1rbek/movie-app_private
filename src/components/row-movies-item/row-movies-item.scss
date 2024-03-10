@@ -3,17 +3,22 @@
 
 	img {
 		width: 100%;
-		transition: all 0.3s ease;
+		transition: all .3s ease;
 
 		&:hover {
 			transform: scale(1.05);
 		}
 	}
+
 	&-descr {
 		margin-top: 5px;
 		display: flex;
 		align-items: center;
 		gap: 5px;
+
+		img {
+			width: 18px;
+		}
 
 		.dot {
 			width: 5px;

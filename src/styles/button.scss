@@ -1,4 +1,4 @@
-@import './variables';
+@import "./variables.scss";
 
 .btn {
 	height: 46px;
@@ -6,12 +6,11 @@
 	border: none;
 	outline: none;
 	cursor: pointer;
-	margin-top: 10px;
-	transition: all 0.3s ease;
+	transition: all .3s ease;
 	font-size: 17px;
 	padding: 12px 24px;
 
-	&__primary {
+	&-primary {
 		background-color: transparent;
 		color: #fff;
 		border: 1px solid #fff;
@@ -22,10 +21,10 @@
 		}
 	}
 
-	&__secondary {
+	&-secondary {
 		background-color: #fff;
 		border: 1px solid #fff;
-
+		
 		&:hover {
 			color: #fff;
 			background-color: transparent;

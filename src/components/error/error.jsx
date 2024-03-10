@@ -1,10 +1,11 @@
-import './error.scss'
-import errorGif from '/error.gif'
+import "./error.scss"
+
 const Error = () => {
 	return (
 		<div className='center'>
-			<img src={errorGif} alt='' className='errormeassage' />
+			<img src="/error.gif" alt="error" className='errormessage' />
 		</div>
 	)
 }
+
 export default Error
