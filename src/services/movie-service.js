@@ -3,7 +3,7 @@ class MovieService {
 	_apiLng = 'language=en-US'
 	_apiKey = 'api_key=66fe14424f1fe640cf3d3aebaa4b9988'
 	_apiImg = 'https://image.tmdb.org/t/p/original'
-	_apiPage = 1
+	_apiPage = 2
 
 	getResource = async url => {
 		const response = await fetch(url)

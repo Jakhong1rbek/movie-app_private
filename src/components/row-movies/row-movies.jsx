@@ -22,7 +22,6 @@ class RowMovies extends React.Component {
 	movieService = new MovieService()
 
 	componentDidMount() {
-		this.state.obj.id = 2
 		this.getTrendingMovies()
 	}
 
@@ -71,7 +70,7 @@ class RowMovies extends React.Component {
 					<button
 						className='btn btn-secondary'
 						onClick={this.getNewMovies}
-						disabled={!newItemLoading}
+						disabled={newItemLoading}
 					>
 						Load More
 					</button>
