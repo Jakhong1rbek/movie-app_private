@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 import { Modal } from 'react-responsive-modal'
 import 'react-responsive-modal/styles.css'
@@ -93,4 +94,8 @@ const Content = ({ movies, onOpen }) => {
 			))}
 		</div>
 	)
+}
+Content.propTypes = {
+	movies: PropTypes.array,
+	onOpen: PropTypes.func,
 }
